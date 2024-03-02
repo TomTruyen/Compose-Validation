@@ -1,5 +1,28 @@
 # Compose Validation
 
+[![](https://jitpack.io/v/TomTruyen/Compose-Validation.svg)](https://jitpack.io/#TomTruyen/Compose-Validation)
+
+## Installation
+
+### settings.gradle.kts
+```kotlin
+    dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { setUrl("https://jitpack.io") }
+    }
+}
+```
+
+### build.gradle.kts
+```kotlin
+dependencies {
+    implementation("com.github.TomTruyen:Compose-Validation:<version>")
+}
+```
+
 ## Usage
 
 ### UIState
